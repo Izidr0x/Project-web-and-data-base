@@ -14,12 +14,34 @@
   <body>
     <main role="main">
         <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+            <li class="container-fluid nav-item dropdown">
+              <a class="navbar-brand nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">
                 <img src="./recursos/logo5.jpg" alt="logo" width="60" height="60">
               </a>
-            </div>  
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#">Movimientos</a></li>
+                <li><a class="dropdown-item" href="#">Configuración</a></li>
+                <li><a class="dropdown-item" href="#">Mis publicaciones</a></li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </li>
         </nav>
+        <div id="venta">
+          <h3>Grafica rtx 3060</h3>
+          <img src="./recursos/grafica.jpg" alt="grafica" width=50% height=50%>
+            <h5>Descripcion: </h5>
+            <p>Tarjeta de Video NVIDIA RTX 3060 TI Asus Dual Mini 8GB.Tiene 1 año de uso de poca frecuencia, 2 a 3 noches
+              por
+              semana (6 a 9 horas por semana).
+              Se ofrece entrega personal en Bucaramanga o su área metropolitana para que le sean realizadas las pruebas
+              respectivas en juegos.</p>
+            <h5>Precio: </h5>
+            <p>$2.000.000</p>
+          </div>
+  
 
     <script src ="./js/bootstrap.bundle.min.js"> </script>
 </body>
