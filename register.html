@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Register</title>
+    
+  <link href="./css/bootstrap.min.css" rel="stylesheet" >
+  <link href="./css/main.css" rel="stylesheet" >
+  <link href="" rel="stylesheet" >
+
+  </head>
+  <body>
+
+    <main role="main">
+        
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="card mt-5">
+                    <div class="card-body"style="top: 100px;">
+                        <div>
+                            <img src="./recursos/logo5.jpg" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+                            <h4 class="text-center">Register</h4>
+                        </div>
+
+                        <form action="" method="post">
+                            <br>
+                            <div class="form-group col-10 mx-auto">
+                                <input 
+                                type="text" 
+                                name="name"
+
+                                value=""
+                                placeholder="username"
+                                id="usernameField" 
+                                class="form-control form-control-sm">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="form-group col-10 mx-auto">
+                                <input 
+                                type="number" 
+                                name="age"
+
+                                value=""
+                                placeholder="age"
+                                id="ageField" 
+                                class="form-control form-control-sm">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="form-group col-10 mx-auto">
+                                <input 
+                                type="text" 
+                                name="username"
+
+                                value=""
+                                placeholder="username"
+                                id="usernameField" 
+                                class="form-control form-control-sm">
+                            </div>
+                            <div class="invalid_feedback invalid-feedback" style="display: none;">
+
+                            </div>
+
+                            <div>
+                                <p class="text-sm text-success usernameSuccessOutput"></p>
+                            </div>
+                            
+                            <br>
+                            <div class="form-group col-10 mx-auto">
+                                <input 
+                                type="email" 
+                                placeholder="email"
+                                name="email"
+                                value=""
+                                id="emailField" 
+                                class="form-control form-control-sm">
+                            </div>
+                            <div class="email_FeedBack invalid-feedback" style="display: none;">
+
+                            </div>
+                            <div>
+                                <p class="text-sm text-success emailSuccessOutput"></p>
+                            </div>
+                            <br>
+                            <div class="form-group col-10 mx-auto">
+                                <input 
+                                type="password" 
+                                name="password" 
+                                placeholder="Password"
+                                id="passwordField" 
+                                class="form-control form-control-sm">
+                                <!--<small class="float-right py-3 showPasswordToggle">SHOW</small>-->
+
+                            </div>
+                            <br>
+                            <div class="d-grid gap-2 col-10 mx-auto">
+                                <input type="submit" value="Register" style="width: 100%;" class="btn btn-block btn-primary submit-btn">
+                            </div>
+                        </form>
+                    </div>
+                        
+                </div>
+
+
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br>
+        <br>
+            
+        <script src ="./js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
